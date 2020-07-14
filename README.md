@@ -1,6 +1,6 @@
 - [X] [copy-list-with-random-pointer](https://leetcode.com/problems/copy-list-with-random-pointer) :orange_book:
-- [ ] [reverse-words-in-a-string](https://leetcode.com/problems/reverse-words-in-a-string) :orange_book:
-- [ ] [two-sum](https://leetcode.com/problems/two-sum) :orange_book:
+- [X] [reverse-words-in-a-string](https://leetcode.com/problems/reverse-words-in-a-string) :orange_book:
+- [X] [two-sum](https://leetcode.com/problems/two-sum) :green_book:
 - [ ] [lru-cache](https://leetcode.com/problems/lru-cache) :orange_book:
 - [ ] [integer-to-english-words](https://leetcode.com/problems/integer-to-english-words) :orange_book:
 - [ ] [spiral-matrix](https://leetcode.com/problems/spiral-matrix) :orange_book:
