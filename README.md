@@ -1,5 +1,4 @@
-- [ ] [t/all/](https://leetcode.com/problemset/all/) :orange_book
-- [ ] [copy-list-with-random-pointer](https://leetcode.com/problems/copy-list-with-random-pointer) :orange_book
+- [X] [copy-list-with-random-pointer](https://leetcode.com/problems/copy-list-with-random-pointer) :orange_book
 - [ ] [reverse-words-in-a-string](https://leetcode.com/problems/reverse-words-in-a-string) :orange_book
 - [ ] [two-sum](https://leetcode.com/problems/two-sum) :orange_book
 - [ ] [lru-cache](https://leetcode.com/problems/lru-cache) :orange_book
