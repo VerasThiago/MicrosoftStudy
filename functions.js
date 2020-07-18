@@ -11,8 +11,8 @@ function setDate(){
     const oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
     const firstDate = new Date(2020, 6, 13);
     const secondDate = new Date(d.getFullYear(), d.getMonth(), d.getDate());
-    const diffDays = Math.round(Math.abs((firstDate - secondDate) / oneDay)) ;
-    document.getElementById("Days").innerHTML = 'Total days: ' + (diffDays + 1) ;
+    let diffDays = Math.round(Math.abs((firstDate - secondDate) / oneDay)) + (d.getHours() < 8 ? 0:1);
+    document.getElementById("Days").innerHTML = 'Total days: ' + diffDays;
 }
 
 function getQuantity(){
