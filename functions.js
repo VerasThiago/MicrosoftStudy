@@ -9,7 +9,7 @@ function setValue(id){
 function setDate(){
     var d = new Date();
     const oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
-    const firstDate = new Date(2020, 6, 13);
+    const firstDate = new Date(2020, 3, 22);
     const secondDate = new Date(d.getFullYear(), d.getMonth(), d.getDate());
     let diffDays = Math.round(Math.abs((firstDate - secondDate) / oneDay)) + (d.getHours() < 8 ? 0:1);
     document.getElementById("Days").innerHTML = 'Total days: ' + diffDays;
