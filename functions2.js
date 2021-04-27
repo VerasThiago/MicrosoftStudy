@@ -10,7 +10,7 @@ function setDate(){
     const date1 = new Date('3/22/2021');
     const date2 = new Date();
     const diffTime = Math.abs(date2 - date1);
-    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24)); 
+    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24)) + 1; 
     document.getElementById("Days").innerHTML = 'Total days: ' + diffDays;
 }
 
