@@ -3,7 +3,7 @@ function setValue(id){
     var qnt = 0;
     for(var i = 0; i < elms.length; i++) 
       qnt += elms[i].checked 
-    document.getElementById("Total" + id ).innerHTML = qnt + '/' + elms.length
+    document.getElementById("Total" + id ).innerHTML = qnt + '/' + elms.length 
 }
 
 function setDate(){
@@ -16,5 +16,6 @@ function setDate(){
 
 function getQuantity(){
     setValue("med")
+    setValue("behaviorial")
     setDate()
 }
